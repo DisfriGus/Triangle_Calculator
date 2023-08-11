@@ -10,5 +10,49 @@
     <header>
         <h1 class="title">Triangle Calculator</h1>
     </header>
+    <div class="container">
+        <img src="" alt="">
+        <div>
+            <div class="calculateArea">
+                <h2>Calculate Area</h2>
+                <div class="areaInput">
+                    <div>
+                        <h5>Alas</h5>
+                        <input type="number" id="alas" >
+                    </div>
+                    <div>
+                        <h5>Tinggi</h5>
+                        <input type="number" id="tinggi">
+                    </div>
+                    <button id="submit" onclick="handleSubmitArea()">Calculate</button>
+                </div>
+            </div>
+            <div class="resultArea">
+            </div>
+        </div>
+        <div>
+            <div class="calculateArea">
+                <h2>Calculated Around</h2>
+                <div class="areaInput">
+                    <div>
+                        <h5>Sisi A</h5>
+                        <input type="number" id="sisiA">
+                    </div>
+                    <div>
+                        <h5>Sisi B</h5>
+                        <input type="number" id="sisiB">
+                    </div>
+                    <div>
+                        <h5>Sisi C</h5>
+                        <input type="number" id="sisiC">
+                    </div>
+                    <button onclick="handleSubmitAround()" >Calculate</button>
+                </div>
+            </div>
+            <div class="resultAround">
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
 </body>
 </html>
