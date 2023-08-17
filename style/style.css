@@ -21,11 +21,19 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 24px;
 }
 .container h2{
     font-size: 32px;
 }
-
+.calculateArea{
+    padding: 20px;
+    border-radius: 16px;
+    border: 1px solid ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .areaInput{
     display: flex;
     flex-direction: column;
@@ -37,5 +45,19 @@
     border-bottom: 2px solid black;
     outline: none;
     width: 320px;
+}
+.submit{
+    border: none;
+    cursor: pointer;
+    background: #D8D9DA;
+    padding: 16px 32px;
+    border-radius: 12px;
+    transition: ease-in-out 0.2s;
+    
+}
+.submit:hover{
+    background: #000;
+    color: #fff;
+
 }
 
